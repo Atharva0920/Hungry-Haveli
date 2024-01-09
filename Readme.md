@@ -1,4 +1,7 @@
 # Hungry Haveli
+# Food Order App Using React JS
+
+
 
 /*
 - Header
@@ -9,7 +12,7 @@
         - Cart
 - Body 
     - Search
-    - Reataurant Container
+    - Restaurant Container
         - Restaurant Card
             - Food Image
             - Rating 
