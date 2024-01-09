@@ -17,6 +17,9 @@ width:150px;
     border: solid 1px orange;
 
 }
+.cost{
+    color:rgb(80, 80, 80);
+}
 .nav-links > ul >li{
     list-style: none;
     margin: 35px;
@@ -28,8 +31,6 @@ width:150px;
     width:250px;
     padding: 10px;
     margin: 10px;
-   
-
 }
 #time{
     list-style-type:disc;
@@ -64,4 +65,25 @@ h4{
 }
 .nav-links > ul{
     display: flex;
+}
+
+
+button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: none;
+    width:100px;
+    height: 30px;
+}
+
+button:focus{
+    background-color: black;
+    color: white;
+    border-radius:50px ;
+}
+
+.filter-container{
+    margin-top: 20px;
+    padding: 5px;
 }
