@@ -3,8 +3,8 @@ import { FOOD_IMG_URL } from "../../utils/Constants";
 
 
 const RestaurantCard = (restaurantData) => {
-    const { name, avgRating, cuisines, cloudinaryImageId } = restaurantData.restaurantData.info;
-    const {deliveryTime, cost} = restaurantData.restaurantData.info.sla;
+    const { name, avgRating, cuisines, cloudinaryImageId , costForTwo} = restaurantData.restaurantData.info;
+    const {deliveryTime} = restaurantData.restaurantData.info.sla;
     
     return (
       <div className="restaurant-card">
@@ -20,7 +20,7 @@ const RestaurantCard = (restaurantData) => {
           </h4>
         </div>
         <h4>{cuisines.join(", ")}</h4>
-        <h4 className="cost">{cost} FOR TWO</h4>
+        <h4 className="cost">{costForTwo}</h4>
       </div>
     );
   };
