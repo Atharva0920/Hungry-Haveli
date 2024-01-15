@@ -65,7 +65,7 @@ h4{
 }
 
 
-button{
+.filter{
     background-color: white;
     color: black;
     padding: 5px;
@@ -83,6 +83,7 @@ button:focus:hover{
     margin-top: 20px;
     padding: 5px;
     display: flex;
+    
 
 }
 .shimmer-box{
@@ -111,4 +112,18 @@ button:focus:hover{
     width:90px;
     border-radius:50px ;
     height: 30px; 
+}
+.search-container{
+    width:300px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.search{
+    width: auto;
+
+}
+.filter-btn{
+    padding:10px;
+    margin-top: 2px;
 }
