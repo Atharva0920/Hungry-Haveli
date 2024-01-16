@@ -1,8 +1,17 @@
 import logo from "../../utils/images/logo.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  console.log("Header Rendered")
   const [btnName, setBtnName] = useState("Login");
+  useEffect(()=>{
+    console.log("useEffect Called");  
+    const fun = ()=>{
+      console.log("This is function returned by useEffect");
+    }
+    return fun;
+    
+  },[btnName]);
   const handleLogin = () => {
     btnName == "Logout"? setBtnName("Login"): setBtnName("Logout")
   };
